@@ -5,12 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Parent } from './Parent';
 import {One} from './one'
+import Fun from './fun'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
 <Parent/> 
 <One/>
+<Fun/>
 </div>
 );
 

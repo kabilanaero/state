@@ -9,7 +9,7 @@ export const Parent = () => {
      { id: 3012, name:"Raj", salary:32000 }
     ]
 
-    const [greet,setGreet]=useState([])
+ const [greet,setGreet]=useState([])
 
     var arr=(a,b)=>{
    let emp=employees.filter((value,index)=>{
